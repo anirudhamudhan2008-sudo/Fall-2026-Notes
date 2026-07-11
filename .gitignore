@@ -1,0 +1,8 @@
+Website/
+PDFs/
+*.aux
+*.log
+*.toc
+.DS_Store
+
+
