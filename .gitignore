@@ -1,8 +1,13 @@
-Website/
-PDFs/
-*.aux
-*.log
-*.toc
+# Emacs temporary files
+*~
+.#*
+
+# macOS files
 .DS_Store
 
-
+# LaTeX temporary build files
+*.tex
+*.aux
+*.log
+*.out
+*.toc
