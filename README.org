@@ -1,5 +1,17 @@
-* Test Note
+#+TITLE: Fall 2026 Notes
+#+AUTHOR: Anirudh Amudhan
 
-This is my Fall 2026 Note system.
+* Fall 2026 Courses
 
-I am testing my pdf and website publishing.
+Welcome to my Fall 2026 notes archive.
+
+These notes are written in Emacs Org Mode and automatically published.
+
+** Courses
+
+- [[Courses/CHEM1212/index.html][CHEM 1212 - General Chemistry I]]
+- [[Courses/CHEM1212L/index.html][CHEM 1212L - Chemistry Lab]]
+- [[Courses/BIOL2107/index.html][BIOL 2107 - Biology I]]
+- [[Courses/BIOL2107L/index.html][BIOL 2107L - Biology Lab]]
+- [[Courses/ENG1102/index.html][ENG 1102 - English Composition]]
+- [[Courses/PSYCH1101/index.html][PSYCH 1101 - Introduction to Psychology]]
