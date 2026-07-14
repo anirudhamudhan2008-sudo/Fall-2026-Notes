@@ -2,3 +2,4 @@
 
 export:
 	emacsclient -e '(load-file "~/Documents/Fall-2026-Notes/publish.el")'
+	cp docs/README.html docs/index.html
