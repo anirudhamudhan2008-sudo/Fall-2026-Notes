@@ -1,0 +1,126 @@
+#+TITLE: ENG 1102 - English Composition II
+#+AUTHOR: Anirudh Amudhan
+#+DATE: 2026-08-25
+#+OPTIONS: toc:2 num:2
+
+* Course Information
+** Professor
+** Schedule
+** Office Hours
+** Contact
+
+* Textbook
+- Title:
+- Author:
+- ISBN:
+
+* Syllabus
+
+* Lecture Notes
+
+** Week 1: Introduction
+   :PROPERTIES:
+   :DATE: 2026-08-25
+   :END:
+
+** Week 2:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 3:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 4:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 5:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 6:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 7:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 8:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 9:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 10:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 11:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 12:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 13:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 14:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Week 15:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+* Essays
+
+** Essay 1
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Essay 2
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Essay 3
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Essay 4
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+* Research Paper
+
+* Homework
+
+* Exams
+
+* Resources
+
+* References

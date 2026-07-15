@@ -1,0 +1,119 @@
+#+TITLE: PSYCH 1101 - Introduction to Psychology
+#+AUTHOR: Anirudh Amudhan
+#+DATE: 2026-08-25
+#+OPTIONS: toc:2 num:2
+
+* Course Information
+** Professor
+** Schedule
+** Office Hours
+** Contact
+
+* Textbook
+- Title:
+- Author:
+- ISBN:
+
+* Syllabus
+
+* Lecture Notes
+
+** Chapter 1: Introduction to Psychology
+   :PROPERTIES:
+   :DATE: 2026-08-25
+   :END:
+
+** Chapter 2:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 3:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 4:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 5:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 6:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 7:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 8:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 9:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 10:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 11:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 12:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 13:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 14:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Chapter 15:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+* Homework
+
+* Labs
+
+* Exams
+
+** Exam 1
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Exam 2
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Final Exam
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+* Resources
+
+* References

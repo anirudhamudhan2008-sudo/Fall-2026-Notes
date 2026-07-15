@@ -1,0 +1,41 @@
+name: Publish Notes
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Install Emacs
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y emacs-nox
+        
+    - name: Install LaTeX
+      run: |
+        sudo apt-get install -y texlive-full
+        
+    - name: Make HTML
+      run: make html
+      
+    - name: Make PDFs
+      run: make pdf
+      
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs
+        
+    - name: Upload PDFs as artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: pdfs
+        path: PDFs/

@@ -1,6 +1,7 @@
 # Emacs temporary files
 *~
 .#*
+.dir-locals.el
 
 # macOS files
 .DS_Store
@@ -12,3 +13,10 @@
 *.out
 *.toc
 theindex*
+
+# Auto-generated sitemap
+/index.org
+/PDFs/index.pdf
+
+# PDFs generated alongside org files (real PDFs are in PDFs/)
+Courses/*/index.pdf

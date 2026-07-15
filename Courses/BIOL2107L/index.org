@@ -1,0 +1,94 @@
+#+TITLE: BIOL 2107L - Biology Lab
+#+AUTHOR: Anirudh Amudhan
+#+DATE: 2026-08-25
+#+OPTIONS: toc:2 num:2
+
+* Course Information
+** Professor
+** Schedule
+** Office Hours
+** Contact
+
+* Lab Manual
+
+* Lab Reports
+
+** Lab 1:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 2:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 3:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 4:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 5:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 6:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 7:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 8:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 9:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 10:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 11:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 12:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 13:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+** Lab 14:
+   :PROPERTIES:
+   :DATE:
+   :END:
+
+* Pre-Lab Questions
+
+* Post-Lab Questions
+
+* Lab Practical
+
+* Resources
+
+* References
