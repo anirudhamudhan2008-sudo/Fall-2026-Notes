@@ -8,8 +8,8 @@
 
 ;; Use our stylesheet and dark mode toggle
 (setq org-html-head (concat
-  "<link rel=\"stylesheet\" href=\"../css/style.css\" />"
-  "<script src=\"../js/darkmode.js\"></script>"))
+  "<link rel=\"stylesheet\" href=\"../../css/style.css\" />"
+  "<script src=\"../../js/darkmode.js\"></script>"))
 
 ;; Define publishing projects
 (setq org-publish-project-alist
