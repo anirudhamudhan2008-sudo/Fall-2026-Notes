@@ -17,6 +17,7 @@ theindex*
 # Auto-generated sitemap
 /index.org
 /PDFs/index.pdf
+/PDFs/README.pdf
 
 # PDFs generated alongside org files (real PDFs are in PDFs/)
 Courses/*/index.pdf
