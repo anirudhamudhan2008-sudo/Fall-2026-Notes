@@ -5,9 +5,11 @@ all: html pdf
 
 # HTML publishing
 html:
-	@echo "Publishing HTML..."
+	@echo "Publishing course pages..."
 	emacs --batch -l ~/Documents/Fall-2026-Notes/publish.el \
-	  --eval '(org-publish "notes-html" t)'
+	  --eval '(org-publish "notes-courses" t)'
+	@echo "Publishing homepage..."
+	emacs --batch -l ~/Documents/Fall-2026-Notes/publish-homepage.el
 	@echo "HTML publishing complete!"
 
 # PDF publishing
@@ -24,11 +26,6 @@ clean:
 	rm -rf PDFs/Courses/*/index.pdf
 	rm -f docs/index.html
 	@echo "Clean complete!"
-
-# Start Emacs server for publishing
-serve:
-	emacs --daemon &
-	@echo "Emacs server started!"
 
 # Publish and serve locally
 publish: all

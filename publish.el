@@ -6,25 +6,20 @@
 (setq org-html-head-include-default-style nil)
 (setq org-html-head-include-scripts nil)
 
-;; Use our stylesheet (relative path for GitHub Pages)
+;; Use our stylesheet
 (setq org-html-head
       "<link rel=\"stylesheet\" href=\"../css/style.css\" />")
 
 ;; Define publishing projects
 (setq org-publish-project-alist
       '(
-        ;; HTML publishing
-        ("notes-html"
-         :base-directory "~/Documents/Fall-2026-Notes"
-         :publishing-directory "~/Documents/Fall-2026-Notes/docs"
+        ;; Course pages: publish Courses/**/*.org
+        ("notes-courses"
+         :base-directory "~/Documents/Fall-2026-Notes/Courses"
+         :publishing-directory "~/Documents/Fall-2026-Notes/docs/Courses"
          :base-extension "org"
          :publishing-function org-html-publish-to-html
-         :recursive t
-         :exclude "README\\.org"
-         :auto-sitemap t
-         :sitemap-title "Fall 2026 Notes"
-         :sitemap-filename "index.org"
-         :sitemap-sort-folders t)
+         :recursive t)
 
         ;; PDF publishing
         ("notes-pdf"
@@ -43,7 +38,7 @@
          :publishing-function org-publish-attachment)
 
         ;; Combined project
-        ("notes" :components ("notes-html" "notes-pdf" "notes-css"))
+        ("notes" :components ("notes-courses" "notes-pdf" "notes-css"))
       ))
 
 ;; Export settings
