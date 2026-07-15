@@ -2,3 +2,6 @@
 #+AUTHOR: Anirudh Amudhan
 #+DATE: 2026-08-25
 #+OPTIONS: toc:2 num:2
+
+
+These are my notes for the Biology 2107 lecture class, Test, Updated wrd jul 15 2026 1:35pm
