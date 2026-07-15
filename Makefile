@@ -8,7 +8,6 @@ html:
 	@echo "Publishing HTML..."
 	emacs --batch -l ~/Documents/Fall-2026-Notes/publish.el \
 	  --eval '(org-publish "notes-html" t)'
-	cp docs/README.html docs/index.html
 	@echo "HTML publishing complete!"
 
 # PDF publishing
