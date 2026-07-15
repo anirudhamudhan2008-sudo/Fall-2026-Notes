@@ -1,33 +1,61 @@
+:root {
+    --bg: #f8f9fb;
+    --card-bg: white;
+    --text: #222;
+    --accent: #4f46e5;
+    --link: #2563eb;
+    --code-bg: #eeeeee;
+    --pre-bg: #f4f4f4;
+    --shadow: rgba(0,0,0,.08);
+    --toggle-bg: #e2e8f0;
+    --toggle-hover: #cbd5e1;
+}
+
+body.dark {
+    --bg: #0f172a;
+    --card-bg: #1e293b;
+    --text: #e2e8f0;
+    --accent: #818cf8;
+    --link: #60a5fa;
+    --code-bg: #334155;
+    --pre-bg: #1e293b;
+    --shadow: rgba(0,0,0,.4);
+    --toggle-bg: #334155;
+    --toggle-hover: #475569;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     max-width: 900px;
     margin: auto;
     padding: 40px;
-    background: #f8f9fb;
-    color: #222;
+    background: var(--bg);
+    color: var(--text);
     line-height: 1.7;
+    transition: background 0.3s, color 0.3s;
 }
 
 #content {
-    background: white;
+    background: var(--card-bg);
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    box-shadow: 0 5px 20px var(--shadow);
+    transition: background 0.3s, box-shadow 0.3s;
 }
 
 h1 {
     font-size: 2.5em;
-    border-bottom: 3px solid #4f46e5;
+    border-bottom: 3px solid var(--accent);
     padding-bottom: .4em;
 }
 
 h2 {
-    color: #4f46e5;
+    color: var(--accent);
     margin-top: 2em;
 }
 
 a {
-    color: #2563eb;
+    color: var(--link);
     text-decoration: none;
 }
 
@@ -44,14 +72,46 @@ li {
 }
 
 pre {
-    background: #f4f4f4;
+    background: var(--pre-bg);
     padding: 15px;
     border-radius: 8px;
     overflow-x: auto;
 }
 
 code {
-    background: #eeeeee;
+    background: var(--code-bg);
     padding: 2px 5px;
     border-radius: 4px;
+}
+
+/* Dark mode toggle button */
+#dark-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    background: var(--toggle-bg);
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, transform 0.2s;
+    z-index: 1000;
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+#dark-toggle:hover {
+    background: var(--toggle-hover);
+    transform: scale(1.1);
+}
+
+/* Postamble styling */
+#postamble p {
+    font-size: 90%;
+    margin: .2em;
 }

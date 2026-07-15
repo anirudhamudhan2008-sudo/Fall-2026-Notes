@@ -6,9 +6,10 @@
 (setq org-html-head-include-default-style nil)
 (setq org-html-head-include-scripts nil)
 
-;; Use our stylesheet
-(setq org-html-head
-      "<link rel=\"stylesheet\" href=\"../css/style.css\" />")
+;; Use our stylesheet and dark mode toggle
+(setq org-html-head (concat
+  "<link rel=\"stylesheet\" href=\"../css/style.css\" />"
+  "<script src=\"../js/darkmode.js\"></script>"))
 
 ;; Define publishing projects
 (setq org-publish-project-alist
@@ -74,7 +75,9 @@
 (defun publish-homepage ()
   "Publish README.org as docs/index.html."
   (interactive)
-  (let ((org-html-head "<link rel=\"stylesheet\" href=\"css/style.css\" />"))
+  (let ((org-html-head (concat
+         "<link rel=\"stylesheet\" href=\"css/style.css\" />"
+         "<script src=\"js/darkmode.js\"></script>")))
     (find-file "~/Documents/Fall-2026-Notes/README.org")
     (let ((out (org-html-export-to-html)))
       (copy-file out "~/Documents/Fall-2026-Notes/docs/index.html" t))))
